@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.app-item-container {
+  list-style-type: none;
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 12px;
+}
+
+.app-img {
+  width: 90px;
+  height: 90px;
+}
+
+.app-name{
+  font-family: Bree Serif;
+  color: #1e293b;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
