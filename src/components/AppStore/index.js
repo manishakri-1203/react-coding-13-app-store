@@ -358,7 +358,7 @@ class AppStore extends Component {
 
           <ul className="apps-list">
             {filteredApps.map(eachApp => (
-              <AppItem appDetails={eachApp} key={eachApp.id} />
+              <AppItem appDetails={eachApp} key={eachApp.appId} />
             ))}
           </ul>
         </div>
